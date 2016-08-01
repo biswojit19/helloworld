@@ -1,0 +1,19 @@
+{
+    "name": "wattabyte/hello-world",
+    "description": "My first composer project",
+    "authors": [
+        {
+            "name": "guruswattabyte",
+            "email": "guru.s@wattabyte.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
